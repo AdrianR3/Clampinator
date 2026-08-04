@@ -2311,7 +2311,7 @@
 	)
 	(text "EL357N(A)(TA)-G needs 330R input resistor"
 		(exclude_from_sim no)
-		(at 39.37 62.23 0)
+		(at 123.19 -21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3591,6 +3591,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 109.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d51da1af-7cc8-49ad-9106-368cd401c623")
 		)
@@ -3898,6 +3907,15 @@
 			)
 		)
 		(property "DigiKey BOM" ""
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
 			(at 96.52 160.02 0)
 			(effects
 				(font
@@ -4346,6 +4364,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C14996"
+			(at 148.59 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "034474bf-5474-4f23-9fb0-def8f2dcf96d")
 		)
@@ -4756,6 +4783,15 @@
 			)
 		)
 		(property "DigiKey BOM" ""
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23204"
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -5257,6 +5293,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 102.87 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "add15f41-98b6-4162-9c25-d3b16493ef16")
 		)
@@ -5346,10 +5391,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e56b0fd-4bb5-47a4-ad6c-1655158aa1e2")
+			(uuid "1e56b0fd-4bb5-47a4-ad6c-1655158aa1e3")
 		)
 		(pin "2"
-			(uuid "1dc97f8e-318c-4322-a49f-f35fdcea3928")
+			(uuid "1dc97f8e-318c-4322-a49f-f35fdcea3929")
 		)
 		(instances
 			(project ""
@@ -5498,6 +5543,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 96.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8101dd36-9ab5-46ea-9cd8-af33c9766f26")
 		)
@@ -5578,6 +5632,15 @@
 			)
 		)
 		(property "DigiKey BOM" ""
+			(at 148.59 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14996"
 			(at 148.59 69.85 90)
 			(effects
 				(font
@@ -5758,11 +5821,20 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25076"
+			(at 101.6 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "d51da1af-7cc8-49ad-9106-368cd401c623")
+			(uuid "d51da1af-7cc8-49ad-9106-368cd401c624")
 		)
 		(pin "2"
-			(uuid "a8a6b5ae-2968-41df-b56e-45a8daf4e212")
+			(uuid "a8a6b5ae-2968-41df-b56e-45a8daf4e213")
 		)
 		(instances
 			(project ""
@@ -5941,6 +6013,15 @@
 			)
 		)
 		(property "DigiKey BOM" ""
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25744"
 			(at 102.87 115.57 0)
 			(effects
 				(font
