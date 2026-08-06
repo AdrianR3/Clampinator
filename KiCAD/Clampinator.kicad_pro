@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.5,
-          "corner_smoothing": 2,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -63,8 +63,8 @@
           "min_clearance": 0.8,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
-          "remove_islands": 1,
+          "pad_connection": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -77,6 +77,14 @@
         }
       ],
       "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|204827415|47553800|f98b2e0b-1c1c-44f1-93a5-33a33f98aaf5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|219827415|32553800|41faf1a7-5912-4ef9-9808-e2265b22d4b8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
         [
           "silk_over_copper|171840000|50170000|2e6c610c-35c8-4bb5-8c0a-95d8b8e7e8e3|5f3af2cb-5db9-4819-9c91-06f28fc31269",
           ""
@@ -325,11 +333,13 @@
       {
         "bottomLayer": 4,
         "enabled": true,
+        "name": "Power Layers",
         "topLayer": 0
       },
       {
         "bottomLayer": 2,
         "enabled": false,
+        "name": "GND Layers",
         "topLayer": 6
       },
       {
