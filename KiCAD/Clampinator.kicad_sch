@@ -189,6 +189,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Conn_01x02_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -8385,6 +8543,12 @@
 		(uuid "867869ee-9428-4c5a-9cdf-ea74d4b27556")
 	)
 	(junction
+		(at 210.82 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88837541-ecf4-40f9-99c7-1517cbe30723")
+	)
+	(junction
 		(at 143.51 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9946,7 +10110,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 102.87) (xy 209.55 102.87)
+			(xy 209.55 102.87) (xy 210.82 102.87)
 		)
 		(stroke
 			(width 0)
@@ -10296,6 +10460,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 106.68) (xy 226.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e64166-5b4e-4edf-a515-495acf9d07c3")
+	)
+	(wire
+		(pts
 			(xy 67.31 30.48) (xy 69.85 30.48)
 		)
 		(stroke
@@ -10343,6 +10517,16 @@
 			(type default)
 		)
 		(uuid "5d5c8504-ac49-4991-808e-84153aef6cd1")
+	)
+	(wire
+		(pts
+			(xy 226.06 105.41) (xy 227.33 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc225f9-abfd-4009-bf29-b955d46e4111")
 	)
 	(wire
 		(pts
@@ -10706,6 +10890,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 102.87) (xy 210.82 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db937d7-f324-4295-8775-e6adad02131c")
+	)
+	(wire
+		(pts
 			(xy 208.28 26.67) (xy 212.09 26.67)
 		)
 		(stroke
@@ -10743,6 +10937,16 @@
 			(type default)
 		)
 		(uuid "6fe14a3f-935c-4306-8ad0-c69e6ecd4f01")
+	)
+	(wire
+		(pts
+			(xy 210.82 100.33) (xy 212.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ecb011-3006-45fd-92f5-281013d3d9c3")
 	)
 	(wire
 		(pts
@@ -11146,7 +11350,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 97.79) (xy 241.3 88.9)
+			(xy 241.3 95.25) (xy 241.3 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11533,6 +11737,16 @@
 			(type default)
 		)
 		(uuid "a865e7fa-18e8-4c99-828c-6346bdd2ea34")
+	)
+	(wire
+		(pts
+			(xy 210.82 100.33) (xy 210.82 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9115ecc-5cf3-446b-8e67-0e12135e9362")
 	)
 	(wire
 		(pts
@@ -23159,6 +23373,89 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x02_1")
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 232.41 105.41 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8dc93d3a-761f-46bb-8363-e0b6c37bd24a")
+		(property "Reference" "TP3"
+			(at 234.95 105.4101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EN/UVLO Test"
+			(at 234.95 102.8701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 232.41 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 232.41 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3426033d-f5fd-4333-8c9e-45d3184b9389")
+		)
+		(pin "1"
+			(uuid "9190db1e-bfdd-44e8-a4d1-e893781cf3ba")
+		)
+		(instances
+			(project "Clampinator"
+				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_45deg")
 		(at 224.79 57.15 0)
 		(unit 1)
@@ -24848,6 +25145,85 @@
 			(project "Clampinator"
 				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 226.06 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3f52157-6a9b-44a6-833c-9daa6a1c448a")
+		(property "Reference" "#PWR0114"
+			(at 226.06 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 225.933 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 226.06 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4785e915-d531-42a1-983c-46bdf21746b1")
+		)
+		(instances
+			(project "Clampinator"
+				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -28797,18 +29173,19 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 210.82 102.87 270)
+		(at 212.09 100.33 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ddfb93a1-90ff-421d-a807-5b59c786c9d3")
-		(property "Reference" "TP3"
-			(at 215.9 101.5999 90)
+		(property "Reference" "TP-not3"
+			(at 217.17 99.0599 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28819,7 +29196,8 @@
 			)
 		)
 		(property "Value" "EN/UVLO Test"
-			(at 215.9 104.1399 90)
+			(at 217.17 101.5999 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28830,7 +29208,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 210.82 107.95 0)
+			(at 212.09 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28841,7 +29219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 107.95 0)
+			(at 212.09 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28852,7 +29230,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 210.82 102.87 0)
+			(at 212.09 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28863,7 +29241,7 @@
 			)
 		)
 		(property "LPN" ""
-			(at 210.82 102.87 90)
+			(at 212.09 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28874,7 +29252,7 @@
 			)
 		)
 		(property "DigiKey BOM" ""
-			(at 210.82 102.87 90)
+			(at 212.09 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28890,7 +29268,7 @@
 		(instances
 			(project "Clampinator"
 				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
-					(reference "TP3")
+					(reference "TP-not3")
 					(unit 1)
 				)
 			)
@@ -29209,7 +29587,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 241.3 97.79 0)
+		(at 241.3 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29220,7 +29598,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2ca5f2b-f6b5-48c3-a7fb-1990db3fc96a")
 		(property "Reference" "#PWR067"
-			(at 241.3 102.87 0)
+			(at 241.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29231,7 +29609,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 241.173 101.6 0)
+			(at 241.173 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29241,7 +29619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 99.06 0)
+			(at 241.3 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29252,7 +29630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 99.06 0)
+			(at 241.3 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29263,7 +29641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 241.3 97.79 0)
+			(at 241.3 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30651,7 +31029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 161.29 138.43 0)
 			(hide yes)
 			(show_name no)
