@@ -2574,6 +2574,16 @@
 		)
 		(uuid "2c445700-19ec-49dc-8bfd-622f894c2307")
 	)
+	(text "M3 MOUNTING HOLES"
+		(exclude_from_sim no)
+		(at 241.3 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6eb6ef09-2d05-4b8b-9774-3d75c57ac3dd")
+	)
 	(text "FAN A"
 		(exclude_from_sim no)
 		(at 135.89 48.26 0)
