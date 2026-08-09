@@ -6615,12 +6615,6 @@
 		(uuid "3a65a3ad-7b32-4dc5-b84b-efa0e114ad8a")
 	)
 	(junction
-		(at 176.53 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "470f800a-9a27-4e29-9daf-909187ed7d03")
-	)
-	(junction
 		(at 35.56 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6715,6 +6709,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81e9384e-a020-4ed3-9f0f-d1cb7ac36778")
+	)
+	(junction
+		(at 190.5 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82557dba-67cb-4b66-9bfa-63a21dd8cc30")
 	)
 	(junction
 		(at 158.75 43.18)
@@ -7080,6 +7080,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 143.51) (xy 195.58 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12279628-46e9-41f0-b80e-236a365a6327")
+	)
+	(wire
+		(pts
 			(xy 82.55 91.44) (xy 83.82 91.44)
 		)
 		(stroke
@@ -7347,6 +7357,16 @@
 			(type default)
 		)
 		(uuid "243a4442-4b96-45e7-9fe5-a102b5af773b")
+	)
+	(wire
+		(pts
+			(xy 186.69 133.35) (xy 190.5 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2441a363-17dd-48d4-8126-6f63ef82a628")
 	)
 	(wire
 		(pts
@@ -7730,7 +7750,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 133.35) (xy 176.53 134.62)
+			(xy 190.5 133.35) (xy 190.5 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8310,6 +8330,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 133.35) (xy 205.74 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784a19ee-305d-4fca-b618-d6d6940717cb")
+	)
+	(wire
+		(pts
 			(xy 31.75 25.4) (xy 31.75 22.86)
 		)
 		(stroke
@@ -8787,16 +8817,6 @@
 			(type default)
 		)
 		(uuid "9a7f6a4d-115f-4448-9eea-b96e6bf693be")
-	)
-	(wire
-		(pts
-			(xy 196.85 143.51) (xy 198.12 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b816d2b-0051-48ac-bc96-997bbcbac134")
 	)
 	(wire
 		(pts
@@ -9380,6 +9400,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 143.51) (xy 198.12 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30e1703-f509-4783-bf39-81a3873f0567")
+	)
+	(wire
+		(pts
 			(xy 85.09 181.61) (xy 85.09 184.15)
 		)
 		(stroke
@@ -9420,6 +9450,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 132.08) (xy 176.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b908de-e4bc-4413-bc6e-ae75e0b34465")
+	)
+	(wire
+		(pts
 			(xy 243.84 134.62) (xy 243.84 135.89)
 		)
 		(stroke
@@ -9427,6 +9467,16 @@
 			(type default)
 		)
 		(uuid "c471b346-4c31-4963-9238-cc2c3e87f838")
+	)
+	(wire
+		(pts
+			(xy 176.53 133.35) (xy 179.07 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49a1f71-ed82-435b-a655-5e7a371e1acb")
 	)
 	(wire
 		(pts
@@ -9510,7 +9560,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 142.24) (xy 176.53 143.51)
+			(xy 190.5 142.24) (xy 190.5 143.51)
 		)
 		(stroke
 			(width 0)
@@ -9670,16 +9720,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 133.35) (xy 194.31 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8c26c55-ddf9-475a-8760-4dbd11c2303d")
-	)
-	(wire
-		(pts
 			(xy 59.69 25.4) (xy 59.69 22.86)
 		)
 		(stroke
@@ -9757,16 +9797,6 @@
 			(type default)
 		)
 		(uuid "dddc3bd7-6ba7-499b-9308-a3634edad765")
-	)
-	(wire
-		(pts
-			(xy 176.53 132.08) (xy 176.53 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0734c1-55d5-406a-a748-1872776fb408")
 	)
 	(wire
 		(pts
@@ -9857,16 +9887,6 @@
 			(type default)
 		)
 		(uuid "e2d179ca-2c05-4c86-912c-45e2dba8563e")
-	)
-	(wire
-		(pts
-			(xy 201.93 133.35) (xy 205.74 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3943054-b812-4827-962d-c1ee83e4b15a")
 	)
 	(wire
 		(pts
@@ -12239,7 +12259,7 @@
 	)
 	(global_label "PC12_RGB_DIN"
 		(shape input)
-		(at 196.85 143.51 180)
+		(at 195.58 146.05 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12249,7 +12269,7 @@
 		)
 		(uuid "c40afd00-5413-4f87-833a-5619a672278c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.9553 143.51 0)
+			(at 195.58 162.9447 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13038,7 +13058,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 138.43 0)
+		(at 190.5 138.43 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13049,7 +13069,7 @@
 		(dnp no)
 		(uuid "0118f022-0ea9-4722-a78b-1dbd1c19ff8d")
 		(property "Reference" "C26"
-			(at 172.72 137.1599 0)
+			(at 186.69 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13060,7 +13080,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 172.72 139.6999 0)
+			(at 186.69 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13071,7 +13091,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 175.5648 142.24 0)
+			(at 189.5348 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13082,7 +13102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 138.43 0)
+			(at 190.5 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13093,7 +13113,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 138.43 0)
+			(at 190.5 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13104,7 +13124,7 @@
 			)
 		)
 		(property "LPN" "C1525"
-			(at 176.53 138.43 0)
+			(at 190.5 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13115,7 +13135,7 @@
 			)
 		)
 		(property "DigiKey BOM" ""
-			(at 176.53 138.43 0)
+			(at 190.5 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13126,7 +13146,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 176.53 138.43 0)
+			(at 190.5 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13346,7 +13366,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 143.51 0)
+		(at 190.5 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13357,7 +13377,7 @@
 		(fields_autoplaced yes)
 		(uuid "061bddf3-8544-4e67-ae50-bb008cbaf2e7")
 		(property "Reference" "#PWR048"
-			(at 176.53 149.86 0)
+			(at 190.5 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13368,7 +13388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 148.59 0)
+			(at 190.5 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13378,7 +13398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 143.51 0)
+			(at 190.5 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13389,7 +13409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 143.51 0)
+			(at 190.5 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13400,7 +13420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 143.51 0)
+			(at 190.5 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13835,7 +13855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm"
 			(at 245.11 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -16649,7 +16669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm"
 			(at 207.01 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -19616,7 +19636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm"
 			(at 262.89 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -25187,7 +25207,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 198.12 133.35 0)
+		(at 182.88 133.35 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -25198,7 +25218,7 @@
 		(dnp no)
 		(uuid "ee209205-fe2c-4b59-afe8-726c63e31b6a")
 		(property "Reference" "D13"
-			(at 198.12 130.81 0)
+			(at 182.88 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25208,7 +25228,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 198.12 128.27 0)
+			(at 182.88 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25218,7 +25238,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 198.12 133.35 0)
+			(at 182.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25229,7 +25249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 133.35 0)
+			(at 182.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25240,7 +25260,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 198.12 133.35 0)
+			(at 182.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25251,7 +25271,7 @@
 			)
 		)
 		(property "LPN" "C8678"
-			(at 198.12 133.35 0)
+			(at 182.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25262,7 +25282,7 @@
 			)
 		)
 		(property "DigiKey BOM" ""
-			(at 198.12 133.35 0)
+			(at 182.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25273,7 +25293,7 @@
 			)
 		)
 		(property "LCSC Part" "C8678"
-			(at 198.12 133.35 0)
+			(at 182.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25800,7 +25820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm"
 			(at 227.33 151.13 0)
 			(hide yes)
 			(show_name no)
