@@ -48,7 +48,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Green")
+				(color "#840000FF")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -117,6 +117,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -7515,12 +7516,6 @@
 		(path "/bd155f44-3568-42cb-941d-3410aea089f8")
 		(sheetname "/")
 		(sheetfile "Clampinator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7755,6 +7750,17 @@
 			(uuid "88d10dec-c5e7-41a5-8d1d-fc6374de994d")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels_tmp/VP036584000AG.STEP"
+			(offset
+				(xyz 10.45 -7.565 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "easyeda2kicad:CAP-SMD_BD8.0-L8.3-W8.3-LS9.3-FD"
 		(layer "F.Cu")
@@ -17653,12 +17659,6 @@
 		(path "/6c049031-0369-4324-a6e4-851779f439c6")
 		(sheetname "/")
 		(sheetfile "Clampinator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17893,6 +17893,17 @@
 			(uuid "5460ad7d-e00a-4be7-adc8-a5d0c1e181c0")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels_tmp/VP036584000AG.STEP"
+			(offset
+				(xyz 10.45 -7.565 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 		(layer "F.Cu")
@@ -57827,14 +57838,6 @@
 		(path "/da869d4c-251c-4c96-ab73-ced5a65addcf/3d835e64-7e8e-44b4-925e-cf0725ca5669")
 		(sheetname "/STM32/")
 		(sheetfile "untitled.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A1" "B12" "A4" "B9" "B8" "A5" "B7" "A6" "A7" "B6" "A8" "B5" "A9"
-					"B4" "A12" "B1" "SH"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -58203,13 +58206,13 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 3.7 1.6)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
