@@ -117,7 +117,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -7428,7 +7427,8 @@
 			(at -4.0256 -0.0002 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "7aedce9e-29c4-4b91-ab6b-e25f43bed84b")
+			(hide yes)
+			(uuid "f2f3e518-c028-4a28-a6a1-a9c51de15897")
 			(effects
 				(font
 					(size 1 1)
@@ -7440,7 +7440,7 @@
 			(at 5.08 5.08 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "1b48aec5-4ff8-40d8-9ff9-7d89b510b610")
+			(uuid "5d377604-00f6-4f4e-9e16-92f69b9b905d")
 			(effects
 				(font
 					(size 1 1)
@@ -7452,7 +7452,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "616e2ba1-8a8a-468d-88ad-a591e87b9dae")
+			(uuid "2a68ed06-386e-42c7-918a-a7f22254da97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,7 +7464,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42900f9e-0848-4fa2-9037-119cad9d87a3")
+			(uuid "b9784724-0879-4c3c-b575-c770e503eb90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,76 +7489,8 @@
 		(path "/bd155f44-3568-42cb-941d-3410aea089f8")
 		(sheetname "/")
 		(sheetfile "Clampinator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 25.777 -1.726999)
-			(end -5.207 -1.726999)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bd26d44c-da76-4c24-803f-17c226b22c57")
-		)
-		(fp_line
-			(start -5.207 -1.726999)
-			(end -5.207 16.840401)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1c582087-53a1-4d6f-96e3-1fb3039209be")
-		)
-		(fp_line
-			(start 25.777 16.840401)
-			(end 25.777 -1.726999)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a366fbd3-ef70-4cfd-ad89-af358910e0df")
-		)
-		(fp_line
-			(start -5.207 16.840401)
-			(end 25.777 16.840401)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5cd2940c-395d-40ef-8afc-cf29efbe23f4")
-		)
-		(fp_circle
-			(center -5.842 0)
-			(end -5.461 0)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "1649eeef-48b3-4c87-88ec-67af68c552bb")
-		)
-		(fp_circle
-			(center -5.842 0)
-			(end -5.461 0)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill no)
-			(layer "B.SilkS")
-			(uuid "56e9a487-6309-4af5-8b3b-68feea278f0e")
-		)
 		(fp_line
 			(start 25.904 -1.853999)
 			(end -5.334 -1.853999)
@@ -17566,7 +17498,8 @@
 			(at -3.9284 0.212 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9a0d840a-f561-424c-addb-51f638da05e8")
+			(hide yes)
+			(uuid "69d6bb98-424a-438f-a726-f0dfc5e5252a")
 			(effects
 				(font
 					(size 1 1)
@@ -17578,7 +17511,7 @@
 			(at 5.08 5.08 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "f0b6464e-6c86-4dce-9c93-a788e392bf81")
+			(uuid "bc9bbc92-19f2-4bb2-91b8-7fb7da571c78")
 			(effects
 				(font
 					(size 1 1)
@@ -17590,7 +17523,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0eea7e5-bf9a-4f73-8c66-3d09e3a08092")
+			(uuid "47980be6-1454-419b-a26a-6c878d713631")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17602,7 +17535,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "064d82e0-666d-4afd-98f8-a8a96dd11ffa")
+			(uuid "35e1d915-affe-47f6-b924-8a0a401df431")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17627,76 +17560,8 @@
 		(path "/6c049031-0369-4324-a6e4-851779f439c6")
 		(sheetname "/")
 		(sheetfile "Clampinator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 25.777 -1.726999)
-			(end -5.207 -1.726999)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5dc0cf70-7447-4196-a0b1-d1b48b84f9ff")
-		)
-		(fp_line
-			(start -5.207 -1.726999)
-			(end -5.207 16.840401)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f59c2ed7-37fc-4d16-905b-cbd419d0a8d0")
-		)
-		(fp_line
-			(start 25.777 16.840401)
-			(end 25.777 -1.726999)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8e42015b-f8e4-47c9-be95-b40af6e6b94d")
-		)
-		(fp_line
-			(start -5.207 16.840401)
-			(end 25.777 16.840401)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "76325a6e-23e8-4bd4-b454-1a1c1e272e42")
-		)
-		(fp_circle
-			(center -5.842 0)
-			(end -5.461 0)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "dcae4e86-1d83-4ce4-810f-331427e3fb27")
-		)
-		(fp_circle
-			(center -5.842 0)
-			(end -5.461 0)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill no)
-			(layer "B.SilkS")
-			(uuid "56cd534e-229f-4066-95b9-7eb9373ddee1")
-		)
 		(fp_line
 			(start 25.904 -1.853999)
 			(end -5.334 -1.853999)
@@ -18221,7 +18086,7 @@
 			(at 0 -4 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "fd3577de-8746-4633-9081-fa4fa0e0da88")
+			(uuid "05831a26-eff2-4c3e-89b6-0c9548f7731b")
 			(effects
 				(font
 					(size 1 1)
@@ -18232,7 +18097,7 @@
 		(property "Value" "Screw_Terminal_01x03"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "e216781b-9e44-4a43-a48b-780f8d556842")
+			(uuid "d66b50af-c371-4461-b2a3-f018ec808b73")
 			(effects
 				(font
 					(size 1 1)
@@ -18244,7 +18109,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b011efdd-02ee-4840-bcdd-cf097ef1066c")
+			(uuid "1de2b4bc-f72f-4a1f-9b62-8d8e0776a6f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18255,7 +18120,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "935e3f1b-1567-4f05-9aa8-65fa72df1c90")
+			(uuid "91adabc9-7116-4a3a-9916-192ee91fd5b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19088,7 +18953,7 @@
 			(at 0 -4.005 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0192497f-dc18-4a4b-aa19-d5c4111aea23")
+			(uuid "323c2b21-6d7e-4e87-a3b8-6f45aafbdc30")
 			(effects
 				(font
 					(size 1 1)
@@ -19099,7 +18964,7 @@
 		(property "Value" "TK100E10N1,S1X"
 			(at 0 4.005 90)
 			(layer "F.Fab")
-			(uuid "609f239b-c718-4360-8e03-dd133196ee7b")
+			(uuid "9c2587a3-9e8c-4107-b2ab-9382bbbe1467")
 			(effects
 				(font
 					(size 1 1)
@@ -19111,7 +18976,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30ada50a-b530-46a0-a699-2cb00b610425")
+			(uuid "2e24672e-d411-4cd4-b8b8-a277278745ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19122,7 +18987,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9fa2730b-644b-4997-8981-bec6b7288698")
+			(uuid "af19a2e5-cb20-47ee-a4f8-49746555bac4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19144,27 +19009,21 @@
 		(path "/c415fd65-49cc-4a16-bec5-a00547b8e789")
 		(sheetname "/")
 		(sheetfile "Clampinator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-		)
 		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -5.3 -3.09)
-			(end 5.3 -3.09)
+			(start -4.5 -3.09)
+			(end 4.5 -3.09)
 			(stroke
 				(width 0.15)
 				(type dot)
 			)
 			(layer "F.SilkS")
-			(uuid "156ad091-94fa-4279-bd5e-3c39025e0b0d")
+			(uuid "39fd2c05-af43-4da1-b9e4-0c5403472b9f")
 		)
 		(fp_line
-			(start 4.823717 -2.49)
-			(end -5.776283 -2.49)
+			(start 4.5 -2.49)
+			(end -4.5 -2.49)
 			(stroke
 				(width 0.15)
 				(type dot)
@@ -19173,25 +19032,14 @@
 			(uuid "5d86c7e4-d26e-4e08-9ea2-c293cccf553f")
 		)
 		(fp_line
-			(start 4.823717 1.7)
-			(end -5.776283 1.7)
+			(start 4.5 1.7)
+			(end -4.5 1.7)
 			(stroke
 				(width 0.15)
 				(type dot)
 			)
 			(layer "F.SilkS")
-			(uuid "39fd2c05-af43-4da1-b9e4-0c5403472b9f")
-		)
-		(fp_circle
-			(center -5 -3)
-			(end -4.97 -3)
-			(stroke
-				(width 0.06)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "48d739f0-502e-43a7-ae6c-b20e6ce8ee19")
+			(uuid "156ad091-94fa-4279-bd5e-3c39025e0b0d")
 		)
 		(fp_circle
 			(center -2.92 2.15)
@@ -21551,7 +21399,7 @@
 			(at 0 -4 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f4e13045-5ff8-4e8d-a3ce-b0a710081ea1")
+			(uuid "71db42f8-4990-4e09-b46e-2af2157d96ec")
 			(effects
 				(font
 					(size 1 1)
@@ -21562,7 +21410,7 @@
 		(property "Value" "Screw_Terminal_01x03"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "8586e385-b109-46fe-941d-edf0c2a92398")
+			(uuid "15f85fe2-44cc-4426-ad03-e9a27c51f7bf")
 			(effects
 				(font
 					(size 1 1)
@@ -21574,7 +21422,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bff0b73b-166c-4f50-b33b-1e41ed3058eb")
+			(uuid "d4ed0c39-28e4-4ddd-b45a-f48a55562f35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21585,7 +21433,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0e60671-6f40-456b-9956-c65d43e2086c")
+			(uuid "b1dc8f22-81b0-4b15-a53d-350bc0df854a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23142,12 +22990,6 @@
 		(path "/3773fae6-d2e3-4176-940c-6f6a7ca52d97")
 		(sheetname "/")
 		(sheetfile "Clampinator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23211,26 +23053,15 @@
 			(uuid "5642f1f1-a2db-4a6f-a96e-0ea5ba37e802")
 		)
 		(fp_arc
-			(start -2.77 2.33)
-			(mid -2.768726 2.729996)
-			(end -2.772548 2.330016)
+			(start -2.77 -3.000016)
+			(mid -2.768726 -2.60002)
+			(end -2.772548 -3)
 			(stroke
 				(width 0.4)
 				(type solid)
 			)
 			(layer "F.SilkS")
 			(uuid "22d6b809-0f62-4062-85f7-c202efd51b5a")
-		)
-		(fp_circle
-			(center -5 -3)
-			(end -4.97 -3)
-			(stroke
-				(width 0.06)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "893e5fca-9c59-4424-aa18-b45c9dabc6af")
 		)
 		(fp_circle
 			(center -2.92 2.15)
@@ -27563,6 +27394,7 @@
 		(property "Reference" "H4"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6227553c-f1de-4755-a7fb-23263c939f38")
 			(effects
 				(font
@@ -31126,12 +30958,6 @@
 		(path "/b88de81c-7a04-403c-a467-892da24f9aed")
 		(sheetname "/")
 		(sheetfile "Clampinator.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31204,17 +31030,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "fa593cad-6f7c-4acd-82e3-5ea78ee352f1")
-		)
-		(fp_circle
-			(center -2.86 -5.43)
-			(end -2.83 -5.43)
-			(stroke
-				(width 0.06)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "d885957e-1b95-4709-b246-4cd29dba58a2")
 		)
 		(fp_line
 			(start -2.86 -5.43)
@@ -71168,14 +70983,6 @@
 		(uuid "e34f2e42-99e9-4519-812d-002847db3dae")
 	)
 	(segment
-		(start 230.378 113.1316)
-		(end 224.71582 113.1316)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "BRAKE_A")
-		(uuid "11ef84e4-eb81-42b5-95e0-2b89fd867c32")
-	)
-	(segment
 		(start 206.0918 63.4454)
 		(end 208.5422 65.8958)
 		(width 0.3)
@@ -71208,12 +71015,28 @@
 		(uuid "1c80432c-9115-421e-8625-4d9e4eefd241")
 	)
 	(segment
+		(start 230.378 113.1316)
+		(end 224.71582 113.1316)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "BRAKE_A")
+		(uuid "20af2ad9-cbbc-4c27-89d8-2a89a0ada5ad")
+	)
+	(segment
 		(start 208.5422 65.8958)
 		(end 216.5014 65.8958)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "BRAKE_A")
 		(uuid "213fabc2-715c-4f3d-ada3-c0cf657deca3")
+	)
+	(segment
+		(start 224.282 112.69778)
+		(end 220.65182 109.0676)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "BRAKE_A")
+		(uuid "25e4388b-3ba5-4376-a510-5aae15615515")
 	)
 	(segment
 		(start 206.5928 57.6704)
@@ -71232,12 +71055,12 @@
 		(uuid "3a0f7869-755a-4468-8562-24be5b0b41bd")
 	)
 	(segment
-		(start 224.282 112.69778)
-		(end 224.282 119.3536)
+		(start 224.71582 113.1316)
+		(end 224.282 112.69778)
 		(width 0.9)
 		(layer "F.Cu")
 		(net "BRAKE_A")
-		(uuid "4f9ea214-706c-4552-aa77-31895f35f4b4")
+		(uuid "3a849bd1-12a6-40bf-9398-55f759f47b56")
 	)
 	(segment
 		(start 220.65182 77.90202)
@@ -71288,6 +71111,14 @@
 		(uuid "849d2ace-1011-4e60-8dcb-5ebd26fc2e15")
 	)
 	(segment
+		(start 224.282 119.3536)
+		(end 224.282 112.69778)
+		(width 0.9)
+		(layer "F.Cu")
+		(net "BRAKE_A")
+		(uuid "91d55101-4566-423d-bb2b-2b416980e136")
+	)
+	(segment
 		(start 224.9342 65.9974)
 		(end 224.9342 67.1558)
 		(width 0.9)
@@ -71302,14 +71133,6 @@
 		(layer "F.Cu")
 		(net "BRAKE_A")
 		(uuid "9705f1e1-df53-4f6b-9555-fa46071251f2")
-	)
-	(segment
-		(start 224.71582 113.1316)
-		(end 224.282 112.69778)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "BRAKE_A")
-		(uuid "9e0c3260-e96e-4887-8688-2f603dbff5d8")
 	)
 	(segment
 		(start 220.726 89.93938)
@@ -71358,14 +71181,6 @@
 		(layer "F.Cu")
 		(net "BRAKE_A")
 		(uuid "c29485a4-9118-4004-a659-4fc25de833a4")
-	)
-	(segment
-		(start 220.65182 109.0676)
-		(end 224.282 112.69778)
-		(width 0.9)
-		(layer "F.Cu")
-		(net "BRAKE_A")
-		(uuid "e1457109-3e55-4dd1-b6ee-72dbac311756")
 	)
 	(segment
 		(start 224.9342 65.9974)
@@ -72030,14 +71845,6 @@
 		(uuid "083f0c2f-cb67-4fde-b54b-c67722285282")
 	)
 	(segment
-		(start 220.726 109.0676)
-		(end 224.79 113.1316)
-		(width 0.9)
-		(layer "In1.Cu")
-		(net "BRAKE_A")
-		(uuid "1c09412b-b054-496d-99f9-d8cc2e500bb4")
-	)
-	(segment
 		(start 224.9342 67.1758)
 		(end 224.9342 65.9974)
 		(width 0.9)
@@ -72108,6 +71915,14 @@
 		(layer "In1.Cu")
 		(net "BRAKE_A")
 		(uuid "52bd9872-c09b-4273-9353-23560f7203f5")
+	)
+	(segment
+		(start 224.71582 113.1316)
+		(end 220.65182 109.0676)
+		(width 0.9)
+		(layer "In1.Cu")
+		(net "BRAKE_A")
+		(uuid "541537f2-dd2b-4221-bc3a-8d5366788236")
 	)
 	(segment
 		(start 154.2046 41.6794)
@@ -72206,12 +72021,12 @@
 		(uuid "cfb4b9d4-686a-4beb-9656-9c39c9c69919")
 	)
 	(segment
-		(start 224.79 113.1316)
-		(end 230.378 113.1316)
+		(start 230.378 113.1316)
+		(end 224.71582 113.1316)
 		(width 0.9)
 		(layer "In1.Cu")
 		(net "BRAKE_A")
-		(uuid "e79099eb-08af-4c92-8149-0a87480bd4da")
+		(uuid "e23d38de-1dc6-401d-b993-3924a48f2a43")
 	)
 	(segment
 		(start 208.62 83.68)
