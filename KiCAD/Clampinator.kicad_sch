@@ -7992,19 +7992,6 @@
 		)
 		(uuid "688fddf9-542e-41fa-93d2-7ebe67ec7f79")
 	)
-	(text "NEED TO FIX FOOTPRINT FOR ALL 8 PADS"
-		(exclude_from_sim no)
-		(at 266.7 247.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "7067d074-3a4e-44fd-a0ab-d4bb5c92b27b")
-	)
 	(text "11 to +20V"
 		(exclude_from_sim no)
 		(at 185.42 134.62 0)
@@ -8169,19 +8156,6 @@
 			)
 		)
 		(uuid "c9c68b26-193d-4cb4-9918-126ac6b87f62")
-	)
-	(text "(PRECHARGE\nRESISTOR)"
-		(exclude_from_sim no)
-		(at 320.04 259.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "c9c9ff97-629e-44ee-ac49-3f17ec2fa809")
 	)
 	(text "BRAKE\nRESISTOR"
 		(exclude_from_sim no)
@@ -11805,6 +11779,16 @@
 			(type default)
 		)
 		(uuid "a814db17-7087-49af-a34d-4a82d294efe6")
+	)
+	(wire
+		(pts
+			(xy 57.15 179.07) (xy 57.15 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a814ea28-43fb-4615-9986-3b73b2d14d66")
 	)
 	(wire
 		(pts
@@ -17229,6 +17213,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 179.07 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2eba93a3-3d20-4cc5-894d-9f39bc57b234")
+		(property "Reference" "TP16"
+			(at 59.69 177.0381 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PGND"
+			(at 59.69 174.4981 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 52.07 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey BOM" ""
+			(at 57.15 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86cecd13-fa62-42e5-ac05-4efc0d6fb522")
+		)
+		(instances
+			(project "Clampinator"
+				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 207.01 83.82 90)
 		(unit 1)
@@ -21544,7 +21618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VP0265840000G"
+		(property "Value" "VP0365840000G"
 			(at 222.25 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21567,7 +21641,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "VP0265840000G"
+		(property "Datasheet" "https://www.anytek.com.tw/UserUpFiles/20181025/d41_CP3hmn_a.pdf"
 			(at 208.534 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -21807,6 +21881,84 @@
 			(project "Clampinator"
 				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
 					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 57.15 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70c5fd01-9e0c-4574-8900-514e70ec965a")
+		(property "Reference" "#PWR0127"
+			(at 57.15 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 57.023 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 57.15 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8e1ff2d-ca37-4e18-a0e8-b5af187999f9")
+		)
+		(instances
+			(project "Clampinator"
+				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -27317,7 +27469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VP0265840000G"
+		(property "Value" "VP0365840000G"
 			(at 222.25 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27340,7 +27492,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "VP0265840000G"
+		(property "Datasheet" "https://www.anytek.com.tw/UserUpFiles/20181025/d41_CP3hmn_a.pdf"
 			(at 208.534 156.21 0)
 			(hide yes)
 			(show_name no)
