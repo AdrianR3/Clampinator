@@ -63,8 +63,8 @@
           "min_clearance": 0.8,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
+          "pad_connection": 2,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -921,7 +921,7 @@
           "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1014,7 +1014,7 @@
           "show": true
         }
       ],
-      "filter_string": "",
+      "filter_string": "H",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -1070,7 +1070,7 @@
         "uuid": "2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
       }
     ],
-    "used_designators": "D10,D13-16,J26,#PWR49-51,#PWR83,#PWR114,#PWR116-125,H1-8,TP5,TP7,TP12",
+    "used_designators": "Q6,#PWR49-51,#PWR83,#PWR114,#PWR116-126,D10,D13-17,J26,H1-8,TP5,TP7,TP12-15",
     "variants": []
   },
   "sheets": [

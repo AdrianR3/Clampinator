@@ -8309,6 +8309,12 @@
 		(uuid "158ec844-bfd1-4bab-b5d7-7c3b148acaef")
 	)
 	(junction
+		(at 242.57 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19d57596-2633-4bdb-9a3a-3028eb436dc6")
+	)
+	(junction
 		(at 144.78 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8381,6 +8387,12 @@
 		(uuid "2dae4324-5394-4aba-91ec-dfe2682a9b2e")
 	)
 	(junction
+		(at 200.66 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35b386de-a722-4787-9a86-a94375bac07f")
+	)
+	(junction
 		(at 20.32 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8439,6 +8451,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47d283e1-7ffd-4c61-bc74-cd3a1f3ee51a")
+	)
+	(junction
+		(at 220.98 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48b579c5-d2f3-4307-85d5-75f3ccf69cf9")
 	)
 	(junction
 		(at 189.23 81.28)
@@ -8525,6 +8543,12 @@
 		(uuid "7c1e8d49-11e4-4746-befb-6d513059f954")
 	)
 	(junction
+		(at 208.28 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d09a4c1-5c46-41a1-bf76-322e52fe08d7")
+	)
+	(junction
 		(at 151.13 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8595,12 +8619,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2f1e5c5-ef8f-439b-9456-4f516bfc3e90")
-	)
-	(junction
-		(at 200.66 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7444871-98e1-4e8b-b76e-6f6e0b484ef2")
 	)
 	(junction
 		(at 156.21 139.7)
@@ -9047,6 +9065,16 @@
 			(type default)
 		)
 		(uuid "087564a2-32f9-4bf3-a9fb-4b2548bc0ac7")
+	)
+	(wire
+		(pts
+			(xy 208.28 86.36) (xy 212.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ab8acd-1a0e-4bfe-b2a2-1303dfc9b590")
 	)
 	(wire
 		(pts
@@ -9860,6 +9888,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 143.51) (xy 220.98 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac6be71-c21e-4198-a056-44cd87f9b8c6")
+	)
+	(wire
+		(pts
 			(xy 204.47 177.8) (xy 208.28 177.8)
 		)
 		(stroke
@@ -9927,6 +9965,16 @@
 			(type default)
 		)
 		(uuid "3f43ca58-5d42-4e03-b0b4-3fc98f34aa27")
+	)
+	(wire
+		(pts
+			(xy 243.84 148.59) (xy 243.84 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9ac08b-6821-4ad5-b484-3272bacaf701")
 	)
 	(wire
 		(pts
@@ -10087,6 +10135,16 @@
 			(type default)
 		)
 		(uuid "43f4ee47-b525-4176-a519-a15be4adc1f1")
+	)
+	(wire
+		(pts
+			(xy 207.01 86.36) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f4f7d3-544c-49ad-aa2a-c39e41c32709")
 	)
 	(wire
 		(pts
@@ -10477,6 +10535,16 @@
 			(type default)
 		)
 		(uuid "59faa721-5990-4d71-a4a8-cc7b875908aa")
+	)
+	(wire
+		(pts
+			(xy 243.84 133.35) (xy 242.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5baddc98-5520-4962-af1c-29a2efe7659a")
 	)
 	(wire
 		(pts
@@ -10920,6 +10988,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 133.35) (xy 243.84 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f71b77c-8029-4252-8324-27821730a2ef")
+	)
+	(wire
+		(pts
 			(xy 24.13 73.66) (xy 24.13 71.12)
 		)
 		(stroke
@@ -11210,7 +11288,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 88.9) (xy 207.01 86.36)
+			(xy 208.28 88.9) (xy 208.28 86.36)
 		)
 		(stroke
 			(width 0)
@@ -11320,7 +11398,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 142.24) (xy 220.98 144.78)
+			(xy 220.98 142.24) (xy 220.98 143.51)
 		)
 		(stroke
 			(width 0)
@@ -12400,7 +12478,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 88.9) (xy 207.01 88.9)
+			(xy 200.66 88.9) (xy 208.28 88.9)
 		)
 		(stroke
 			(width 0)
@@ -12780,6 +12858,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 63.5) (xy 273.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e649f47a-13a9-4896-8e82-736da6e3c16f")
+	)
+	(wire
+		(pts
 			(xy 80.01 27.94) (xy 78.74 27.94)
 		)
 		(stroke
@@ -12787,16 +12875,6 @@
 			(type default)
 		)
 		(uuid "e65e842b-426f-4a1f-96b4-803cf8b9492b")
-	)
-	(wire
-		(pts
-			(xy 207.01 86.36) (xy 212.09 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e755fbaf-bd83-4d2f-97b5-c609e747dde6")
 	)
 	(wire
 		(pts
@@ -12857,6 +12935,16 @@
 			(type default)
 		)
 		(uuid "eb9c7022-451f-4059-b57b-9bd06d924e3e")
+	)
+	(wire
+		(pts
+			(xy 220.98 143.51) (xy 236.22 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec641cd7-b28d-4ede-b113-dd3e6631adfc")
 	)
 	(wire
 		(pts
@@ -13160,6 +13248,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 60.96) (xy 273.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe489086-73b3-4876-88e6-eba86e523529")
+	)
+	(wire
+		(pts
 			(xy 267.97 111.76) (xy 267.97 110.49)
 		)
 		(stroke
@@ -13318,6 +13416,30 @@
 		(uuid "159377eb-d530-4975-a687-f2edbddc3754")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.1814 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "HGATE"
+		(shape input)
+		(at 273.05 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ae48397-cf1b-4b46-8cab-e963708ec7c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.8409 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13879,6 +14001,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "DGATE"
+		(shape input)
+		(at 273.05 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7abf8f0-b9de-4811-b4ad-32fc343ea17f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.7804 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -14981,7 +15127,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "166d2055-a483-4aca-8a2d-da7ac0d9dbda")
@@ -15311,6 +15457,84 @@
 			(project "Clampinator"
 				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 243.84 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "186adb67-519a-456c-869f-76c7e90dc3c4")
+		(property "Reference" "#PWR0126"
+			(at 243.84 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 243.713 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 243.84 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e5464ac-5a96-4190-b29d-017848289039")
+		)
+		(instances
+			(project "Clampinator"
+				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -16891,7 +17115,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMCJ60CA"
+		(property "Value" "SMCJ54CA"
 			(at 177.8 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16912,7 +17136,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Diodes-Incorporated-SMCJ60CA-13-F_C135187.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C135179.pdf"
 			(at 184.15 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16923,7 +17147,7 @@
 				)
 			)
 		)
-		(property "Description" "SMCJ60CA-13-F"
+		(property "Description" "SMCJ54CA-13-F"
 			(at 184.15 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16945,7 +17169,7 @@
 				)
 			)
 		)
-		(property "MPN" "SMCJ60CA-13-F"
+		(property "MPN" "SMCJ54CA-13-F"
 			(at 184.15 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -16956,7 +17180,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C135187"
+		(property "LCSC Part" "C135179"
 			(at 184.15 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -16967,7 +17191,7 @@
 				)
 			)
 		)
-		(property "LPN" "C135187"
+		(property "LPN" "C135179"
 			(at 184.15 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -17971,6 +18195,7 @@
 		)
 		(property "Value" "TK100E10N1,S1X"
 			(at 233.68 143.5099 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18463,6 +18688,85 @@
 			(project "Clampinator"
 				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e98df69-749a-4604-9aeb-9e40699f287a")
+		(property "Reference" "TP15"
+			(at 266.7 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H"
+			(at 269.7479 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 271.78 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ce586e8-fcf9-4efc-ba8a-41c928ddc743")
+		)
+		(instances
+			(project "Clampinator"
+				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -21117,14 +21421,13 @@
 		(dnp no)
 		(uuid "6a136928-ba6e-43c7-a07e-15179e96ddef")
 		(property "Reference" "R53"
-			(at 201.93 87.63 0)
+			(at 198.12 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "120k"
@@ -21425,6 +21728,85 @@
 			(project "Clampinator"
 				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fc544ea-437e-4b95-bae7-6dbd04865397")
+		(property "Reference" "TP14"
+			(at 266.7 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 269.7479 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 271.78 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ba36526-74bb-43d3-86db-e8b443740f55")
+		)
+		(instances
+			(project "Clampinator"
+				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -27090,6 +27472,179 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 241.3 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c415fd65-49cc-4a16-bec5-a00547b8e789")
+		(property "Reference" "Q6"
+			(at 247.65 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TK100E10N1,S1X"
+			(at 247.65 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:TO-220-3_L10.0-W4.5-P2.54-L"
+			(at 246.38 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5986394.pdf"
+			(at 241.3 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TOSHIBA(东芝)"
+			(at 241.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TK100E10N1,S1X"
+			(at 241.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5986394"
+			(at 241.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 241.3 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 241.3 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 241.3 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LPN" "C5986394"
+			(at 241.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey BOM" ""
+			(at 241.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "577d3446-aeb3-48ff-97cd-97a2dbf7f71d")
+		)
+		(pin "2"
+			(uuid "ea1095df-2ba1-4ed7-87cd-934837ac42f6")
+		)
+		(pin "3"
+			(uuid "aff83d10-29f4-41d4-8f03-6a75e2b40011")
+		)
+		(instances
+			(project "Clampinator"
+				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 157.48 81.28 0)
 		(unit 1)
@@ -31019,14 +31574,13 @@
 			)
 		)
 		(property "Value" "LIN"
-			(at 158.75 138.43 90)
+			(at 156.21 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
@@ -31091,6 +31645,86 @@
 			(project "Clampinator"
 				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f32258be-682e-44e2-aea2-58e91f81ecd9")
+		(property "Reference" "TP13"
+			(at 201.93 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 204.9779 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 207.01 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b37ae2e5-52ac-4af6-9e5e-6970e3297101")
+		)
+		(instances
+			(project "Clampinator"
+				(path "/2e882f49-6d2d-4454-9c69-d6f4a7d50c65"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
