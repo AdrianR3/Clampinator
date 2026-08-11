@@ -1,0 +1,16 @@
+# Ignore IAR Embedded Workbench build artifacts
+**/EWARM/Obj/
+**/EWARM/List/
+**/EWARM/Debug/
+**/EWARM/Release/
+**/EWARM/*.dep
+**/EWARM/*.saved_workbench_*
+
+# Ignore general compilation artifacts
+*.o
+*.d
+*.su
+*.elf
+*.bin
+*.hex
+*.map
