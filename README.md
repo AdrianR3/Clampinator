@@ -31,7 +31,9 @@ The Clampinator can be ordered from sites like JLCPCB. The KiCAD source files ar
 
 ## Images 
 
- - Pinout here
+ <img height="300" alt="Clampinator Base and Fan Footprint" src="./assets/clampinator-footprint.png" /> <img height="300" alt="Clampinator 3D Render with Fan and Duct" src="./assets/clampinator-pcb-with-fan-duct-and-base.png" />
+ 
+ <img width="600" alt="Clampinator Full PCB Layout" src="./assets/clampinator-full-pcb-layout.png" />
 
 ## Schematic
 
