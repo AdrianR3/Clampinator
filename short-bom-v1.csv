@@ -1,0 +1,10 @@
+Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
+"LCSC Parts","Majority of PCB Components (With GSDL selected)",,124.28,"","LCSC"
+"150R 25W Resistor","Precharge Resistor (Inrush Current Limiting)",1,5.19,"https://www.digikey.com/en/products/detail/riedon-products-by-bourns/UAL25-150RF8/3886469","DigiKey"
+"1818-VP036584000AG-ND","Connect Main Power",2,5.50,"https://www.digikey.com/en/products/detail/amphenol-anytek/VP036584000AG/10378245","DigiKey"
+"1818-VP0265840000G-ND","Connect Precharge Resistor",1,3.10,"https://www.digikey.com/en/products/detail/amphenol-anytek/VP0265840000G/10378270","DigiKey"
+"EG1847-ND","Switch for Logic Side of Board",,0.89,"https://www.digikey.com/en/products/detail/e-switch/EG1270/6076","DigiKey"
+"259-1805-ND","Active Cooling Fan (price includes est. tariff)",2,15.48,"https://www.digikey.com/en/products/detail/sunon-fans/MF80252V1-1000U-A99/6198743","DigiKey"
+"SW115-ND","(GPI-154-3013) Precharge Switch",,1.83,"https://www.digikey.com/en/products/detail/cw-industries/GPI-154-3013/902","DigiKey"
+"1.6R 500W Resistor","Main brake resistor",,29.99,"https://www.youdaelectronics.com/products/1pc-500w-watt-16-ohm-500w-16r-aluminum-housing-wire-wound-resistor-29x52x250mm-3199","Youda Electronics"
+"JLCPCB + Stencil","Main Clampinator Board",1,101.38,"","JLCPCB"
